@@ -1,0 +1,74 @@
+<!--
+ALL CONTENT MUST BE IN A COLUMN
+	*** USE TABBING TO HELP!!!!!
+
+Form Notes:
+All form items must be inside a <form> </form>
+tag
+Standard Syntax:
+	<form action="#" method="post">
+	</form>
+Every Input needs a Label
+Input types: Text,
+
+Bootstrap Form Classes: form-label, form-control
+
+Drop Downs:
+<select></select> <- Surround Options
+<option></option> <- Each Option
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Forms</title>
+</head>
+<body>
+<div class="container">
+
+  <div class="row">
+    <div class="col">
+      <form action="#" method="post">
+        <div class="row">
+          <div class="col-sm-6">
+            <label for="fname" class="form-label">First Name:</label>
+            <input type="text" id="fname" name="fname" class="form-control" placeholder="Enter Your First Name">
+          </div>
+          <div class="col-sm-6">
+            <label for="lname" class="form-label">Last Name:</label>
+            <input type="text" id="lname" name="lname" class="form-control"placeholder="Enter Your Last Name - Nobody Cares About the Middle Initial....">
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <label for="add1" class="form-label">Address 1:</label>
+          <input type="text" id="add1" name="add1" class="form-control" placeholder="Enter Your Add1 here">
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="add2" class="form-label">Address 2:</label>
+            <input type="text" id="add2" name="add2" class="form-control" placeholder="Enter Your Add2 here">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5">
+            <label for="Town" class="form-label">Town/City:</label>
+            <input type="text" id="Town" name="Town" class="form-control" placeholder="Enter Your Town here">
+           <div class="col-sm-2">
+            <label for="State" class="form-label">State:</label>
+            <input type="text" id="State" name="State" class="form-control" placeholder="Enter Your State here">
+          </div>
+
+        </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
